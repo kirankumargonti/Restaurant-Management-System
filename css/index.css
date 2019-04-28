@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+:root{
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*-----------curosel effect------------------------*/
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.carousel-caption h1 {
+    font-family: 'Great Vibes',cursive;
+    font-size: 5vw;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+
+}
+
+.carousel-caption p {
+    font-family: serif;
+    font-size: 20px;
+    right: 20px;
+    font-weight: 600;
+    position: absolute;
+    text-transform: capitalize;
+
+}
+
+.btn {
+    
+    font-family: serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    transform: translateY(70%);
+    font-weight: 650;
+    margin-top: 20px;
+   
+}
+.btn-outline-light {
+     color: black!important;
+     background-color:rgb(255, 255, 255)!important;
+     border-color: #517eaa;
+    border-radius: 10px;
+}
+.btn-outline-light:hover {
+    color: white !important;
+    background-color: #3785a8 !important;
+    border-color: #f8f9fa;
+     box-shadow: var(--shadow);
+}
+
+/*-------------SPICY SCOFF MENU----------*/
+.container-fluid {
+    margin: 0;
+    text-align: center;
+    background-color: beige;
+    height: 180px;
+    letter-spacing: 0.5vh;
+
+}
+
+.container-fluid h1{
+  font-family: 'Tangerine',
+  cursive;
+  font-weight: bolder;
+    font-size: 6rem;
+    color: black;
+    text-transform: capitalize;
+    top: 50px;
+    position: relative;
+   
+}
+.col-sm-6{
+    background-color: beige;
+}
+
+.hello {
+    width: 100%;
+    padding: 5px 10px;
+    box-shadow: var(--shadow);
+    
+    
+}
+.t2{
+    color:black !important;
+}
+
+/*---------------------images---------------------------------*/
+.col-sm-3{
+    background-color: rgba(197, 112, 78, 0.747);
+    box-shadow: var(--shadow);
+}
+.color1{
+    background-color: rgba(197, 112, 78, 0.651);
+}
+
+
+/*------------------latest news card-------------------*/
+.color2{
+    background-color:rgba(0, 139, 139, 0.582);
+}
+.card-title h2{
+    font-family: serif;
+    color: rgb(5, 5, 4);
+    text-transform: capitalize;
+}
+.card-text p{
+    font-family: serif;
+    color: cadetblue;
+    text-transform: capitalize;
+}
+.card{
+    border-radius: 10px;
+   
+}
+.card-deck{
+   position: relative;
+   width: 100%;
+    box-shadow: var(--shadow);
+    background-color: darkcyan;
+}
+.kimg {
+    position: relative;
+    height:400px;
+    width:355px;
+}
+/*--------------gallery----------------------------*/
+.float-left{
+    height: 250px;
+    width: 300px;
+}
+.color3, .style {
+    background-color: rgb(68, 86, 114);
+    margin:0;
+    box-shadow: var(--shadow);
+}
+.style img {
+    border: 2px solid white;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.kimg2{
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+@media(max-width:576px) {
+    .carousel-caption h1 {
+         font-size: 35px;
+    }
+    .container-fluid h1 {
+     font-size: 4rem;
+    }
+}

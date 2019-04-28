@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4),
+        0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+     --great: 'Great Vibes',
+     cursive;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+
+/*============================about==========*/
+.about {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/pexels-photo-260922\(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.about h1 {
+    margin: o;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: 'Great Vibes',
+        cursive;
+    font-size: 6rem;
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+   
+/*==================================================*/
+.custom{
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow: var(--shadow);
+}
+.custom h1{
+    font-size: 4rem;
+    font-family: var(--great);
+    padding-top: 50px;
+    color: linear-gradient(to right, #395e81, rgb(203, 119, 206));
+}
+.custom p{
+    font-size: 1.6rem;
+    font-family: monotype corsiva;
+    padding: 30px;
+    text-align: left;
+}
+.custom h1::before {
+       content: '';
+       background: rgb(177, 95, 19);
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+       height: 4px;
+       width: 300px;
+       transform: translateY(104px);
+}
+.custom h1::after {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       content: '';
+       background: rgb(19, 133, 209);
+       height: 8px;
+       width: 100px;
+       transform: translateY(21px);
+}
+/*====================our team==============================*/
+.style1 {
+    background-color: rgb(153, 195, 211, 0.3);
+}
+.our-team{
+    font-family: var(--great);
+    padding-top: 50px;
+    font-size: 4rem;
+}
+.our-team::before {
+    content: '';
+    background: blueviolet;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 4px;
+    width: 300px;
+    transform: translateY(74px);
+}
+.our-team::after {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: '';
+    background: rgb(64, 142, 187);
+    height: 8px;
+    width: 150px;
+    transform: translateY(-8.5px);
+}
+.section2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: var(--shadow);
+    background-color: tan;
+}
+.section2 img{
+position: relative;
+width: 200px;
+height: 200px;
+justify-content: center;
+align-content: center;
+}
+@media(max-width:576px) {
+  .custom h1{
+      font-size: 35px;
+  }
+    .custom p {
+        font-size: 1rem;
+    }
+    .custom h1::after {
+         transform: translateY(14px);
+    }
+}
+/*=========================================*/

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*--------------------------footer-----------------------*/
+.color5 {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.color5 h1 {
+    color: aliceblue;
+    font-family: 'Tangerine', cursive;
+    font-size: 8vw;
+    letter-spacing: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.color5 p {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 8vw;
+    letter-spacing: 4rem;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+@media (max-width:576px) {
+    .color5 h1{
+         letter-spacing: 1rem;
+    }   
+    .color5 p{
+         letter-spacing: 1rem;
+    } 
+}
+

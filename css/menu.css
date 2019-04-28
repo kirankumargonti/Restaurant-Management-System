@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --great: 'Great Vibes',
+        cursive;
+    --tang: 'Tangerine',
+        cursive;
+    --paci: 'Pacifico',
+        cursive;
+    --nicon: 'Niconne',
+        cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*============menu pic================*/
+.menu-img {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(../images/menu/3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.menu-img h1 {
+
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+/*===============heading================*/
+.style1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: cadetblue;
+    padding:20px;
+    box-shadow: var(--shadow);
+}
+
+.style1 h1 {
+    font-family: 'Great Vibes', cursive;
+    color: black;
+}
+
+.style1 p {
+    font-family: serif;
+    text-transform: capitalize;
+    color: rgb(14, 15, 15);
+    font-size: 1.5rem;
+    overflow-x: hidden;
+}
+
+/*===========cards============*/
+.card-deck {
+    background-color: burlywood;
+
+}
+
+.card {
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.card-img-top img {
+    width: 355px;
+    
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-family: serif;
+    color: brown;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-family: serif;
+    color: black;
+    text-transform: capitalize;
+}
+.kimg2 {
+    position: relative !important;
+    height: 300px !important; 
+    width: 356px !important;
+    ;
+}
+
+/*=================menu-items==============*/
+.stylesheet1 {
+    background-color: rgb(64, 66, 77);
+    text-align: center;
+}
+
+.stylesheet2 {
+    background-color: #325070;
+    text-align: center;
+}
+
+.stylesheet3 {
+    background-color: rgb(75, 37, 18);
+    text-align: center;
+}
+
+.stylesheet4 {
+    background-color: rgb(3, 126, 126);
+    text-align: center;
+}
+
+/*=======================================================*/
+.stylesheet1 h1,
+.stylesheet2 h1,
+.stylesheet3 h1,
+.stylesheet4 h1 {
+    font-family: var(--great);
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 15px 0px;
+
+}
+
+.stylesheet1 p,
+.stylesheet2 p,
+.stylesheet3 p,
+.stylesheet4 p {
+    font-family: sans-serif !important;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+/*========================button==============================*/
+.stylesheet1 .btn,
+.stylesheet2 .btn,
+.stylesheet3 .btn,
+.stylesheet4 .btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: var(--nicon);
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.stylesheet1 .btn:hover,
+.stylesheet2 .btn:hover,
+.stylesheet3 .btn:hover,
+.stylesheet4 .btn:hover {
+    color: black;
+    box-shadow: var(--shadow);
+}
+
+/*================================img-==================*/
+.stylesheet1 .img1,
+.stylesheet2 .img2,
+.stylesheet3 .img3,
+.stylesheet4 .img4 {
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    width: 520px;
+    height: 350px;
+    margin: 10px 0px;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+@media(max-width:576px) {
+    .style1 h1 {
+        font-size: 35px;
+        color: white;
+    }
+     .style1 p {
+         font-size: 1rem;
+     }
+     .stylesheet1 p,
+     .stylesheet2 p,
+     .stylesheet3 p,
+     .stylesheet4 p {
+         
+         font-size: 1rem;
+     }
+}

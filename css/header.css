@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --gradient: linear-gradient(to right, #395e81, rgb(203, 119, 206));
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*-----nav bar-----------------------------*/
+.navbar {
+    background-color: rgb(37, 41, 59);
+    width: 100%;
+    box-shadow: var(--shadow);
+    padding: 0px 30px;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes',
+        cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    float: right;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: beige;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.login-button {
+    box-sizing: border-box;
+    border: 2px solid rgb(241, 235, 234);
+    border-radius: 10px;
+    background: teal;
+
+}
+
+.login-button:hover {
+    background:white;
+    color: black;
+}
+.navbar-toggler {
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+.navbar-brand:hover {
+     color: red;
+}
+.strong{
+    color: red;
+}
+.strong:hover {
+     color: white;
+}
