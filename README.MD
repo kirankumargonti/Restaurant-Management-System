@@ -2,7 +2,7 @@
 
 1. Open xampp and start  apache and mysql => if you don't have installed xampp please click on the below link to  download 
 
-https://www.apachefriends.org/index.html 
+ https://www.apachefriends.org/index.html 
 
 
 2. After that  place this Project folder in  "htdocs" folder.
