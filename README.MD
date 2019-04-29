@@ -25,7 +25,7 @@ https://localhost/phpmyadmin
 # Creating Tables 
 
 ### Careating  users table to store the user details i.e., Signup form details 
-CREATE TABLE users (
+CREATE TABLE users ( <br>
 idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
 uidUsers TINYTEXT NOT NULL,
 emailUsers TINYTEXT NOT NULL,
