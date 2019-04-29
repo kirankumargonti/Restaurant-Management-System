@@ -7,7 +7,7 @@ https://www.apachefriends.org/index.html
 
 2. After that  place this Project folder in  "htdocs" folder.
 
-C:\xampp\htdocs\
+3. C:\xampp\htdocs\
 
 
 # Creating database
@@ -24,7 +24,7 @@ https://localhost/phpmyadmin
  
 # Creating Tables 
 
-## Careating  users table to store the user details i.e., Signup form details 
+### Careating  users table to store the user details i.e., Signup form details 
 CREATE TABLE users (
 idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
 uidUsers TINYTEXT NOT NULL,
@@ -33,7 +33,7 @@ pwdUsers LONGTEXT NOT NULL
 );
 
 
-## Careating  reservation table to store the existing user details i.e., reservation form details 
+### Creating  reservation table to store the existing user details i.e., reservation form details 
 
 CREATE TABLE reservation (
 idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
